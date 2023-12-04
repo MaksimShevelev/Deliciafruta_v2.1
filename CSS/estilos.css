@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(124, 75, 151);
+    font-family: "Arial Rounded MT Std Extra Bold";
+    font-weight: bold;
+    src: url(../tipofrafias/Arial_Rounded_MT_Std_Extra_Bold.woff) format('woff'),
+         url(../tipofrafias/Arial_Rounded_MT_Std_Extra_Bold.woff2) format('woff2');
+    overflow-x: hidden;
+}
+
+body,
+head,
+header {
+    background-color: rgb(241, 247, 247);
+}
+
+.navbar {
+    background-color: rgb(241, 247, 247);
+}
+
+
+.navbar-nav .nav-link {
+    color: rgb(124, 75, 151);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel {
+    padding: 0;
+}
+
+/*.navbar-brand img {
+    padding-left: 1%;
+}*/
+
+.todasSecciones {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#quienes-somos,
+#eventos {
+    background-color: rgb(222, 244, 206);
+}
+
+
+#quienes-somos h2 {
+    color: rgb(94, 176, 48);
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+}
+
+#quienes-somos h1 {
+    color: rgb(124, 75, 151);
+}
+
+#nuestrosProductos, #catalogo, #contacto h1 {
+    color: rgb(94, 176, 48);
+}
+
+.card {
+    background-color: rgb(241, 247, 247);
+}
+
+.row {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card-body p.card-text {
+    color: rgb(124, 75, 151);
+}
+
+.card-body h3.card-title,
+.card-body h4 {
+    color: rgb(94, 176, 48);
+}
+
+.modal-content {
+    background-color: rgb(222, 244, 206);
+}
+
+.modal-content .modal-body p {
+    color: rgb(124, 75, 151);
+}
+
+.modal-content .modal-body h1 {
+    color: rgb(94, 176, 48);
+}
+
+.btn-primary  {
+    background-color: rgb(124, 75, 151);
+    color: rgb(94, 176, 48);
+    border-color: rgb(94, 176, 48);
+}
+
+.btn-primary:hover {
+    background-color: rgb(94, 176, 48);
+    color: rgb(124, 75, 151);
+    border-color: rgb(124, 75, 151);
+}
+
+
+.event h2{
+    color: rgb(94, 176, 48);
+}
+
+#quienes-somos, #nuestrosProductos, #catalogo, #contacto, #eventos{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow-x: hidden;  
+}
+
+#nuestrosProductos h2{
+    color: rgb(124, 75, 151);
+}
+
+.card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.event{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#eventos {
+    overflow-x: hidden;
+}
+
+
+.student-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#minicarrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+
+.modal-content {
+    position: relative;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.modal-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#modalTotalItems,
+#modalTotalPrice {
+    text-align: center;
+}
+
+
+
+.cart-list button {
+    margin-left: 40px;
+}
+.cart-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px; 
+}
+
+#cartItemList {
+    padding-left: 5px; 
+}
+
+.logo_davinci h1 a{
+    background: url(../media/footer.png) center center no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 120px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.logo_github h1 a{
+    background: url(../media/GitHub-Emblem.png) center center no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 80px;
+    display: inline-block;
+    font-size: 0;
+}
+
+
+@media (min-width: 992px) {
+
+    .formula {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .formula figure {
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+
+    .card {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .form {
+        padding-right: 25%;
+        padding-left: 25%;
+    }
+
+    .empresa img {
+        width: 20%;
+        height: auto;
+    }
+
+    .formula img {
+        width: 70%;
+        height: auto;
+    }
+
+    .footer ul {
+        width: 100vw; 
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer ul li {
+        width: calc(100% / 3); 
+        text-align: center;
+    }
+
+    .navbar h1 a {
+        background: url(../media/logo2.png) center center no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        font-size: 0;
+    }
+    
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .formula {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+
+
+    .empresa img {
+        width: 30%;
+        height: auto;
+    }
+
+    .formula img {
+        width: 50%;
+        height: auto;
+    }
+
+    #minicarrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #minicarrito h3 {
+        margin: 5px 0;
+    }
+    .footer ul {
+        width: 100vw; 
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+    
+    .footer ul li {
+        width: calc(100% / 3); 
+        text-align: center;
+    }
+
+    .navbar h1 a {
+        background: url(../media/logo2.png) center center no-repeat;
+        background-size: cover;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        font-size: 0;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+
+    .formula {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form {
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+
+
+    .empresa img {
+        width: 40%;
+        height: auto;
+    }
+
+    .formula img {
+        width: 40%;
+        height: auto;
+    }
+
+    #minicarrito {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #minicarrito h3 {
+        margin: 5px 0;
+    }
+
+
+    .footer ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer li {
+        text-align: center;
+    }
+
+    .navbar h1 a {
+        background: url(../media/logo2.png) center center no-repeat;
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        font-size: 0;
+    }
+    
+    
+}
