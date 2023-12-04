@@ -146,7 +146,10 @@ img {
 }
 
 
-
+.highlighted {
+    font-size: 1.2em;
+    background-color:  rgb(94, 176, 48);
+}
 
 #minicarrito {
     display: flex;
